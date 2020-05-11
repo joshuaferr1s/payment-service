@@ -37,7 +37,7 @@ app.post('/payment', async (req, res) => {
     });
     res.json({
       status: 200,
-      amount: paid.amount / 10,
+      amount: paid.amount / 100,
     });
   } catch (error) {
     console.log(error.message);
