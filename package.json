@@ -1,0 +1,34 @@
+{
+  "name": "payment-server",
+  "version": "1.0.0",
+  "description": "Express api to handle payments using Stripe",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaferr1s/payment-server.git"
+  },
+  "keywords": [
+    "stripe",
+    "payment",
+    "express",
+    "api"
+  ],
+  "author": "Joshua Ferris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuaferr1s/payment-server/issues"
+  },
+  "homepage": "https://github.com/joshuaferr1s/payment-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "stripe": "^8.50.0",
+    "uuid": "^8.0.0"
+  }
+}
